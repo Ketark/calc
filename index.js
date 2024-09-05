@@ -61,7 +61,7 @@ role.addEventListener("click", (e) => {
         calculation.value.search(/\+|-|x|\/|%/) !==
         calculation.value.length - 1
       ) {
-        calculation.value = calc(calculation.value) + e.target.innerText;
+        calculation.value = calc(calculation.value);
       } else {
         calculation.value = calculation.value.slice(
           0,
