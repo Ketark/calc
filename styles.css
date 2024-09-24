@@ -1,0 +1,27 @@
+.role {
+    background-color: grey;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 150px;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.done {
+    width: 310px;
+}
+
+.calculation {
+    font-size: 30px;
+    margin: 5px;
+}
